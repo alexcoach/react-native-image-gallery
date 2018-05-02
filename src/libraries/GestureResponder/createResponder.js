@@ -5,7 +5,7 @@
 'use strict';
 
 import {InteractionManager} from 'react-native';
-import TouchHistoryMath from './TouchHistoryMath'; // copied from react/lib/TouchHistoryMath.js
+import TouchHistoryMath from 'react-native/Libraries/Renderer/shims/TouchHistoryMath';
 import {pinchDistance} from './TouchDistanceMath';
 import TimerMixin from 'react-timer-mixin';
 
